@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اتصل بنا - القبعة الرمادية</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<canvas id="matrix-canvas"></canvas>
+
+<header>
+  <div class="container nav">
+    <div class="logo"><div><div class="brand">القبعة الرمادية</div><div class="tag small">تواصل معنا</div></div></div>
+    <nav class="nav-links">
+      <a href="index.html">الرئيسية</a>
+      <a href="attacks.html">أنواع الهجمات</a>
+      <a href="damages.html">أضرار الهجمات</a>
+      <a href="protection.html">طرق الحماية</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html" class="btn secondary">اتصل بنا</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="kicker">تواصل</div>
+  <h2>هل لديك سؤال أو تريد ورشة عملية؟</h2>
+  <p class="small">أرسل لنا رسالة وسنرد عليك خلال أيام العمل.</p>
+
+  <div style="display:grid; grid-template-columns:1fr 380px; gap:18px; margin-top:18px">
+    <form action="#" class="card" style="min-height:220px">
+      <div style="display:flex; gap:8px; flex-direction:column">
+        <label>الاسم الكامل</label>
+        <input name="name" style="padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:inherit" required>
+        <label>البريد الإلكتروني</label>
+        <input name="email" type="email" style="padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:inherit" required>
+        <label>الرسالة</label>
+        <textarea name="message" rows="5" style="padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:inherit" required></textarea>
+        <div style="margin-top:8px">
+          <button class="btn" type="submit">أرسل الرسالة</button>
+        </div>
+      </div>
+    </form>
+
+    <aside class="quick">
+      <h3>معلومات الاتصال</h3>
+      <div class="small">📧 البريد الإلكتروني: info@grayhat.com</div>
+      <div class="small" style="margin-top:6px">📞 الهاتف: +966 55 123 4567</div>
+      <div class="small" style="margin-top:6px">🕒 أوقات العمل: الأحد - الخميس 8 ص - 5 م</div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2025 القبعة الرمادية. جميع الحقوق محفوظة.</div>
+    <div class="small">المنصة تعليمية.</div>
+  </div>
+</footer>
+
+<script src="matrix.js"></script>
+</body>
+</html>

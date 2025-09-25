@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>أنواع الهجمات - القبعة الرمادية</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<canvas id="matrix-canvas"></canvas>
+
+<header>
+  <div class="container nav">
+    <div class="logo"><div><div class="brand">القبعة الرمادية</div><div class="tag small">قواعد وأدوات</div></div></div>
+    <nav class="nav-links">
+      <a href="index.html">الرئيسية</a>
+      <a href="attacks.html">أنواع الهجمات</a>
+      <a href="damages.html">أضرار الهجمات</a>
+      <a href="protection.html">طرق الحماية</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html" class="btn secondary">اتصل بنا</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="kicker">قائمة الهجمات</div>
+  <h2>أنواع الهجمات السيبرانية الشائعة</h2>
+  <p class="small">ملخص لكل هجوم مع آلية العمل وكيفية الوقاية.</p>
+
+  <div class="grid" style="margin-top:18px">
+    <article class="card">
+      <h4>هجمات التصيد (Phishing)</h4>
+      <p>رسائل مزيفة تهدف لخداع المستخدم لكشف بيانات حساسة مثل كلمات المرور.</p>
+      <div class="small">وقاية: تحقق من الروابط، لا تدخل بياناتك على صفحات مشبوهة، استخدم مُصادقة ثنائية.</div>
+    </article>
+
+    <article class="card">
+      <h4>هجمات حجب الخدمة (DDoS)</h4>
+      <p>إغراق الخادم بطلبات زائدة لإيقاف الخدمة.</p>
+      <div class="small">وقاية: استخدام CDN، جدران حماية مخصصة، مراقبة حركة الشبكة.</div>
+    </article>
+
+    <article class="card">
+      <h4>استغلال الثغرات (Exploit)</h4>
+      <p>استغلال ثغرة في برمجية للسماح بتنفيذ أوامر أو الوصول غير المصرح.</p>
+      <div class="small">وقاية: تحديثات منتظمة، إدارة التصحيحات، فحص الثغرات.</div>
+    </article>
+
+    <article class="card">
+      <h4>هجمات الحقن (Injection)</h4>
+      <p>مثل SQL Injection حيث يستغل المهاجم استيفاء استعلامات غير آمنة.</p>
+      <div class="small">وقاية: استخدام استعلامات مُعلمة (prepared statements) والتحقق من الإدخال.</div>
+    </article>
+
+    <article class="card">
+      <h4>هجمات الهندسة الاجتماعية</h4>
+      <p>الخداع النفسي لجعل الضحية تكشف معلومات أو تتخذ إجراءً ضارًا.</p>
+      <div class="small">وقاية: التوعية والتدريب، سياسات صارمة للموظفين.</div>
+    </article>
+
+    <article class="card">
+      <h4>برمجيات الفدية (Ransomware)</h4>
+      <p>تشفير بيانات الضحية والمطالبة بفدية لفك التشفير.</p>
+      <div class="small">وقاية: نسخ احتياطية منتظمة، حلول كشف سلوك مشبوه، تحديثات أمان.</div>
+    </article>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2025 القبعة الرمادية. جميع الحقوق محفوظة.</div>
+    <div class="small">المحتوى تعليمي فقط.</div>
+  </div>
+</footer>
+
+<script src="matrix.js"></script>
+</body>
+</html>
